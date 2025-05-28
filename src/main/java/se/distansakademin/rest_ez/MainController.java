@@ -10,6 +10,12 @@ public class MainController {
 
     // http://localhost:8080/hello
 
+    // 0123
+    // anna
+
+    // 1331
+
+
     @GetMapping("/")
     public String getHome(){
         return "Hello from my deployed app!";
@@ -25,4 +31,5 @@ public class MainController {
     public String getGoodbye(){
         return "Good bye my friend";
     }
+
 }

@@ -7,6 +7,7 @@ import se.distansakademin.rest_ez.models.BankAccount;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+
 public class BankAccountTests {
 
     @Test
