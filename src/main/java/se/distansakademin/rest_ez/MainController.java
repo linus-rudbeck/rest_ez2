@@ -10,11 +10,6 @@ public class MainController {
 
     // http://localhost:8080/hello
 
-    // 0123
-    // anna
-
-    // 1331
-
 
     @GetMapping("/")
     public String getHome(){
