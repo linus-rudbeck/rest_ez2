@@ -39,4 +39,11 @@ public class MainControllerTests {
                 .andExpect(status().isOk());
     }
 
+    @Test
+    public void getTest_shouldReturnOK() throws Exception {
+        mockMvc.perform(get("/test"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("OK"));
+    }
+
 }
