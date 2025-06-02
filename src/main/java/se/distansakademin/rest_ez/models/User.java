@@ -40,4 +40,12 @@ public class User {
 
         return years;
     }
+
+    public void addPassword(String somePassword) {
+
+    }
+
+    public String getPassword() {
+        return null;
+    }
 }

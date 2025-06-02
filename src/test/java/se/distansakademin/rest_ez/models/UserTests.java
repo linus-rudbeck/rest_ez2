@@ -104,4 +104,19 @@ public class UserTests {
         // Assert
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testAddPassword(){
+        // Arrange
+        // user from setup()
+
+        // Act
+        String expected = "SomePassword";
+        user.addPassword("SomePassword");
+        String actual = user.getPassword();
+
+        // Assert
+        assertEquals(expected, actual);
+    }
+
 }
